@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ProgressReporter iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ProgressReporter macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ProgressReporter tvOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>ProgressReporter watchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BE6CFCD11D2AD4D00064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFCDB1D2AD4D00064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFCEE1D2AD5110064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFCF71D2AD5110064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFD0A1D2AD5550064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFD131D2AD5550064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFD261D2AD5680064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFD331D2AD57A0064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CFD3C1D2AD57B0064041E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

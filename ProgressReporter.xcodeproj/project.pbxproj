@@ -21,6 +21,10 @@
 		BEB2DA211D2ADFDF00492793 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */; };
 		BEB2DA221D2ADFDF00492793 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */; };
 		BEB2DA231D2ADFDF00492793 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */; };
+		BEB2DA251D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
+		BEB2DA261D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
+		BEB2DA271D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
+		BEB2DA281D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,7 @@
 		BE6CFD3D1D2AD57B0064041E /* ProgressReporter tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressReporter tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6CFD4E1D2AD6940064041E /* Info_iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_iOS.plist; sourceTree = "<group>"; };
 		BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressReporter.swift; sourceTree = "<group>"; };
+		BEB2DA241D2AE12800492793 /* ProgressReporting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressReporting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */,
+				BEB2DA241D2AE12800492793 /* ProgressReporting.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -455,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB2DA251D2AE12800492793 /* ProgressReporting.swift in Sources */,
 				BEB2DA201D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB2DA261D2AE12800492793 /* ProgressReporting.swift in Sources */,
 				BEB2DA211D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB2DA271D2AE12800492793 /* ProgressReporting.swift in Sources */,
 				BEB2DA221D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB2DA281D2AE12800492793 /* ProgressReporting.swift in Sources */,
 				BEB2DA231D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,11 +10,11 @@ import Foundation
 
 private var progressReporterObservationContext = 0
 
-class ProgressReporter: NSObject {
+public class ProgressReporter: NSObject {
     
     private let progress: NSProgress
     
-    init(progress: NSProgress) {
+    public init(progress: NSProgress) {
         self.progress = progress
         super.init()
         registerForKVO()
@@ -26,7 +26,7 @@ class ProgressReporter: NSObject {
         }
     }
     
-    weak var delegate: ProgressReporterDelegate?
+    public weak var delegate: ProgressReporterDelegate?
     
     private enum ProgressKey: String {
         case fractionCompleted
@@ -50,7 +50,7 @@ class ProgressReporter: NSObject {
         }
     }
     
-    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    override public func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         guard context == &progressReporterObservationContext else {
             super.observeValueForKeyPath(keyPath, ofObject: object, change: change, context: context)
             return
@@ -80,7 +80,7 @@ class ProgressReporter: NSObject {
     
 }
 
-protocol ProgressReporterDelegate: class {
+public protocol ProgressReporterDelegate: class {
     
     func progressReporter(progressReporter: ProgressReporter, didChangeFractionCompleted fractionCompleted: Double)
     func progressReporter(progressReporter: ProgressReporter, didChangeCompletedUnitCount completedUnitCount: Int64)
@@ -93,75 +93,75 @@ protocol ProgressReporterDelegate: class {
 
 extension ProgressReporterDelegate {
     
-    func progressReporter(progressReporter: ProgressReporter, didChangeFractionCompleted fractionCompleted: Double) { }
-    func progressReporter(progressReporter: ProgressReporter, didChangeCompletedUnitCount completedUnitCount: Int64) { }
-    func progressReporter(progressReporter: ProgressReporter, didChangeTotalUnitCount totalUnitCount: Int64) { }
-    func progressReporterDidCancel(progressReporter: ProgressReporter) { }
-    func progressReporterDidPause(progressReporter: ProgressReporter) { }
-    func progressReporterDidResume(progressReporter: ProgressReporter) { }
+    public func progressReporter(progressReporter: ProgressReporter, didChangeFractionCompleted fractionCompleted: Double) { }
+    public func progressReporter(progressReporter: ProgressReporter, didChangeCompletedUnitCount completedUnitCount: Int64) { }
+    public func progressReporter(progressReporter: ProgressReporter, didChangeTotalUnitCount totalUnitCount: Int64) { }
+    public func progressReporterDidCancel(progressReporter: ProgressReporter) { }
+    public func progressReporterDidPause(progressReporter: ProgressReporter) { }
+    public func progressReporterDidResume(progressReporter: ProgressReporter) { }
 
 }
 
 extension ProgressReporter {
     
-    var totalUnitCount: Int64 {
+    public var totalUnitCount: Int64 {
         return progress.totalUnitCount
     }
     
-    var completedUnitCount: Int64 {
+    public var completedUnitCount: Int64 {
         return progress.completedUnitCount
     }
     
-    var fractionCompleted: Double {
+    public var fractionCompleted: Double {
         return progress.fractionCompleted
     }
     
-    var localizedDescription: String {
+    public var localizedDescription: String {
         return progress.localizedDescription
     }
     
-    var localizedAdditionalDescription: String {
+    public var localizedAdditionalDescription: String {
         return progress.localizedAdditionalDescription
     }
     
-    var cancellable: Bool {
+    public var cancellable: Bool {
         return progress.cancellable
     }
     
-    var cancelled: Bool {
+    public var cancelled: Bool {
         return progress.cancelled
     }
     
-    var pausable: Bool {
+    public var pausable: Bool {
         return progress.pausable
     }
     
-    var paused: Bool {
+    public var paused: Bool {
         return progress.paused
     }
     
-    var kind: String? {
+    public var kind: String? {
         return progress.kind
     }
     
-    var indeterminate: Bool {
+    public var indeterminate: Bool {
         return progress.indeterminate
     }
     
-    var userInfo: [NSObject: AnyObject] {
+    public var userInfo: [NSObject: AnyObject] {
         return progress.userInfo
     }
     
-    func cancel() {
+    public func cancel() {
         progress.cancel()
     }
     
-    func pause() {
+    public func pause() {
         progress.pause()
     }
     
     @available(OSXApplicationExtension 10.11, *)
-    func resume() {
+    public func resume() {
         progress.resume()
     }
     

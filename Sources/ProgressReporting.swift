@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ProgressReporting {
+public protocol ProgressReporting {
     
     func getProgressReporter() -> ProgressReporter
     
@@ -16,7 +16,7 @@ protocol ProgressReporting {
 
 extension ProgressReporting where Self: NSProgressReporting {
     
-    func getProgressReporter() -> ProgressReporter {
+    public func getProgressReporter() -> ProgressReporter {
         return ProgressReporter(progress: progress)
     }
     

@@ -3,451 +3,438 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE6CFCF21D2AD5110064041E /* ProgressReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CFCF11D2AD5110064041E /* ProgressReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE6CFCF91D2AD5110064041E /* ProgressReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CFCEF1D2AD5110064041E /* ProgressReporter.framework */; };
-		BE6CFCFE1D2AD5110064041E /* ProgressReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CFCFD1D2AD5110064041E /* ProgressReporterTests.swift */; };
-		BE6CFD151D2AD5550064041E /* ProgressReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CFD0B1D2AD5550064041E /* ProgressReporter.framework */; };
-		BE6CFD3E1D2AD57B0064041E /* ProgressReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CFD341D2AD57A0064041E /* ProgressReporter.framework */; };
-		BE6CFD541D2ADF060064041E /* ProgressReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CFCFD1D2AD5110064041E /* ProgressReporterTests.swift */; };
-		BE6CFD551D2ADF060064041E /* ProgressReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CFCFD1D2AD5110064041E /* ProgressReporterTests.swift */; };
-		BEB2DA1C1D2ADFC400492793 /* ProgressReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CFCF11D2AD5110064041E /* ProgressReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEB2DA1D1D2ADFC700492793 /* ProgressReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CFCF11D2AD5110064041E /* ProgressReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEB2DA1E1D2ADFC900492793 /* ProgressReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CFCF11D2AD5110064041E /* ProgressReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEB2DA201D2ADFDF00492793 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */; };
-		BEB2DA211D2ADFDF00492793 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */; };
-		BEB2DA221D2ADFDF00492793 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */; };
-		BEB2DA231D2ADFDF00492793 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */; };
-		BEB2DA251D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
-		BEB2DA261D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
-		BEB2DA271D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
-		BEB2DA281D2AE12800492793 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2DA241D2AE12800492793 /* ProgressReporting.swift */; };
+		52D6D9871BEFF229002C0205 /* ProgressReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* ProgressReporter.framework */; };
+		52D6D9981BEFF375002C0205 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* ProgressReporter.swift */; };
+		52D6D99B1BEFF375002C0205 /* ProgressReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* ProgressReporterTests.swift */; };
+		52D6D9EA1BEFFFA4002C0205 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* ProgressReporter.swift */; };
+		52D6DA091BF00081002C0205 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* ProgressReporter.swift */; };
+		52D6DA261BF00118002C0205 /* ProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* ProgressReporter.swift */; };
+		7C00D0581EA61D84004F7657 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00D0531EA61D84004F7657 /* ProgressReporting.swift */; };
+		7C00D0591EA61D84004F7657 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00D0531EA61D84004F7657 /* ProgressReporting.swift */; };
+		7C00D05A1EA61D84004F7657 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00D0531EA61D84004F7657 /* ProgressReporting.swift */; };
+		7C00D05B1EA61D84004F7657 /* ProgressReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00D0531EA61D84004F7657 /* ProgressReporting.swift */; };
+		DD7502861C68FDDC006590AF /* ProgressReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* ProgressReporterTests.swift */; };
+		DD7502881C68FEDE006590AF /* ProgressReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* ProgressReporter.framework */; };
+		DD7502921C690C7A006590AF /* ProgressReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* ProgressReporter.framework */; };
+		DD75029A1C690CBE006590AF /* ProgressReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* ProgressReporterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BE6CFCFA1D2AD5110064041E /* PBXContainerItemProxy */ = {
+		52D6D9881BEFF229002C0205 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE6CFCC71D2AD4660064041E /* Project object */;
+			containerPortal = 52D6D9731BEFF229002C0205 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE6CFCEE1D2AD5110064041E;
-			remoteInfo = "ProgressReporter macOS";
+			remoteGlobalIDString = 52D6D97B1BEFF229002C0205;
+			remoteInfo = ProgressReporter;
 		};
-		BE6CFD161D2AD5550064041E /* PBXContainerItemProxy */ = {
+		DD7502801C68FCFC006590AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE6CFCC71D2AD4660064041E /* Project object */;
+			containerPortal = 52D6D9731BEFF229002C0205 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE6CFD0A1D2AD5550064041E;
-			remoteInfo = "ProgressReporter iOS";
+			remoteGlobalIDString = 52D6DA0E1BF000BD002C0205;
+			remoteInfo = "ProgressReporter-macOS";
 		};
-		BE6CFD3F1D2AD57B0064041E /* PBXContainerItemProxy */ = {
+		DD7502931C690C7A006590AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE6CFCC71D2AD4660064041E /* Project object */;
+			containerPortal = 52D6D9731BEFF229002C0205 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE6CFD331D2AD57A0064041E;
-			remoteInfo = "ProgressReporter tvOS";
+			remoteGlobalIDString = 52D6D9EF1BEFFFBE002C0205;
+			remoteInfo = "ProgressReporter-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE6CFCEF1D2AD5110064041E /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6CFCF11D2AD5110064041E /* ProgressReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressReporter.h; sourceTree = "<group>"; };
-		BE6CFCF31D2AD5110064041E /* Info_macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_macOS.plist; sourceTree = "<group>"; };
-		BE6CFCF81D2AD5110064041E /* ProgressReporter macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressReporter macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6CFCFD1D2AD5110064041E /* ProgressReporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressReporterTests.swift; sourceTree = "<group>"; };
-		BE6CFCFF1D2AD5110064041E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE6CFD0B1D2AD5550064041E /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6CFD141D2AD5550064041E /* ProgressReporter iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressReporter iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6CFD271D2AD5680064041E /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6CFD2B1D2AD5680064041E /* Info_watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_watchOS.plist; sourceTree = "<group>"; };
-		BE6CFD341D2AD57A0064041E /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6CFD381D2AD57A0064041E /* Info_tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_tvOS.plist; sourceTree = "<group>"; };
-		BE6CFD3D1D2AD57B0064041E /* ProgressReporter tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressReporter tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6CFD4E1D2AD6940064041E /* Info_iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_iOS.plist; sourceTree = "<group>"; };
-		BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressReporter.swift; sourceTree = "<group>"; };
-		BEB2DA241D2AE12800492793 /* ProgressReporting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressReporting.swift; sourceTree = "<group>"; };
+		52D6D97C1BEFF229002C0205 /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6D9861BEFF229002C0205 /* ProgressReporter-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressReporter-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6D9961BEFF375002C0205 /* ProgressReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressReporter.swift; path = Sources/ProgressReporter.swift; sourceTree = "<group>"; };
+		52D6D9971BEFF375002C0205 /* ProgressReporterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressReporterTests.swift; path = Tests/ProgressReporterTests/ProgressReporterTests.swift; sourceTree = "<group>"; };
+		52D6D9E21BEFFF6E002C0205 /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6D9F01BEFFFBE002C0205 /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6DA0F1BF000BD002C0205 /* ProgressReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C00D0531EA61D84004F7657 /* ProgressReporting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressReporting.swift; path = Sources/ProgressReporting.swift; sourceTree = "<group>"; };
+		AD2FAA261CD0B6D800659CF4 /* ProgressReporter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProgressReporter.plist; sourceTree = "<group>"; };
+		AD2FAA281CD0B6E100659CF4 /* ProgressReporterTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProgressReporterTests.plist; sourceTree = "<group>"; };
+		DD75027A1C68FCFC006590AF /* ProgressReporter-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressReporter-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD75028D1C690C7A006590AF /* ProgressReporter-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProgressReporter-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE6CFCEB1D2AD5110064041E /* Frameworks */ = {
+		52D6D9781BEFF229002C0205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFCF51D2AD5110064041E /* Frameworks */ = {
+		52D6D9831BEFF229002C0205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6CFCF91D2AD5110064041E /* ProgressReporter.framework in Frameworks */,
+				52D6D9871BEFF229002C0205 /* ProgressReporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD071D2AD5550064041E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE6CFD111D2AD5550064041E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6CFD151D2AD5550064041E /* ProgressReporter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE6CFD231D2AD5680064041E /* Frameworks */ = {
+		52D6D9DE1BEFFF6E002C0205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD301D2AD57A0064041E /* Frameworks */ = {
+		52D6D9EC1BEFFFBE002C0205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD3A1D2AD57B0064041E /* Frameworks */ = {
+		52D6DA0B1BF000BD002C0205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6CFD3E1D2AD57B0064041E /* ProgressReporter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7502771C68FCFC006590AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7502881C68FEDE006590AF /* ProgressReporter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD75028A1C690C7A006590AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7502921C690C7A006590AF /* ProgressReporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE6CFCC61D2AD4660064041E = {
+		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
-				BE6CFD4D1D2AD5B90064041E /* Sources */,
-				BE6CFD4C1D2AD5B90064041E /* Resources */,
-				BE6CFD531D2ADEED0064041E /* Tests */,
-				BE6CFCD31D2AD4D00064041E /* Products */,
+				52D6D9961BEFF375002C0205 /* ProgressReporter.swift */,
+				7C00D0531EA61D84004F7657 /* ProgressReporting.swift */,
+				52D6D9971BEFF375002C0205 /* ProgressReporterTests.swift */,
+				52D6D99C1BEFF38C002C0205 /* Configs */,
+				52D6D97D1BEFF229002C0205 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE6CFCD31D2AD4D00064041E /* Products */ = {
+		52D6D97D1BEFF229002C0205 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE6CFCEF1D2AD5110064041E /* ProgressReporter.framework */,
-				BE6CFCF81D2AD5110064041E /* ProgressReporter macOSTests.xctest */,
-				BE6CFD0B1D2AD5550064041E /* ProgressReporter.framework */,
-				BE6CFD141D2AD5550064041E /* ProgressReporter iOSTests.xctest */,
-				BE6CFD271D2AD5680064041E /* ProgressReporter.framework */,
-				BE6CFD341D2AD57A0064041E /* ProgressReporter.framework */,
-				BE6CFD3D1D2AD57B0064041E /* ProgressReporter tvOSTests.xctest */,
+				52D6D97C1BEFF229002C0205 /* ProgressReporter.framework */,
+				52D6D9861BEFF229002C0205 /* ProgressReporter-iOS Tests.xctest */,
+				52D6D9E21BEFFF6E002C0205 /* ProgressReporter.framework */,
+				52D6D9F01BEFFFBE002C0205 /* ProgressReporter.framework */,
+				52D6DA0F1BF000BD002C0205 /* ProgressReporter.framework */,
+				DD75027A1C68FCFC006590AF /* ProgressReporter-macOS Tests.xctest */,
+				DD75028D1C690C7A006590AF /* ProgressReporter-tvOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE6CFD4C1D2AD5B90064041E /* Resources */ = {
+		52D6D99C1BEFF38C002C0205 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				BE6CFCF11D2AD5110064041E /* ProgressReporter.h */,
-				BE6CFCF31D2AD5110064041E /* Info_macOS.plist */,
-				BE6CFD381D2AD57A0064041E /* Info_tvOS.plist */,
-				BE6CFD2B1D2AD5680064041E /* Info_watchOS.plist */,
-				BE6CFD4E1D2AD6940064041E /* Info_iOS.plist */,
+				DD7502721C68FC1B006590AF /* Frameworks */,
+				DD7502731C68FC20006590AF /* Tests */,
 			);
-			path = Resources;
+			path = Configs;
 			sourceTree = "<group>";
 		};
-		BE6CFD4D1D2AD5B90064041E /* Sources */ = {
+		DD7502721C68FC1B006590AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BEB2DA1F1D2ADFDF00492793 /* ProgressReporter.swift */,
-				BEB2DA241D2AE12800492793 /* ProgressReporting.swift */,
+				AD2FAA261CD0B6D800659CF4 /* ProgressReporter.plist */,
 			);
-			path = Sources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE6CFD531D2ADEED0064041E /* Tests */ = {
+		DD7502731C68FC20006590AF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BE6CFCFD1D2AD5110064041E /* ProgressReporterTests.swift */,
-				BE6CFCFF1D2AD5110064041E /* Info.plist */,
+				AD2FAA281CD0B6E100659CF4 /* ProgressReporterTests.plist */,
 			);
-			path = Tests;
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BE6CFCEC1D2AD5110064041E /* Headers */ = {
+		52D6D9791BEFF229002C0205 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6CFCF21D2AD5110064041E /* ProgressReporter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD081D2AD5550064041E /* Headers */ = {
+		52D6D9DF1BEFFF6E002C0205 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2DA1C1D2ADFC400492793 /* ProgressReporter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD241D2AD5680064041E /* Headers */ = {
+		52D6D9ED1BEFFFBE002C0205 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2DA1D1D2ADFC700492793 /* ProgressReporter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD311D2AD57A0064041E /* Headers */ = {
+		52D6DA0C1BF000BD002C0205 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2DA1E1D2ADFC900492793 /* ProgressReporter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BE6CFCEE1D2AD5110064041E /* ProgressReporter macOS */ = {
+		52D6D97B1BEFF229002C0205 /* ProgressReporter-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6CFD001D2AD5110064041E /* Build configuration list for PBXNativeTarget "ProgressReporter macOS" */;
+			buildConfigurationList = 52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-iOS" */;
 			buildPhases = (
-				BE6CFCEA1D2AD5110064041E /* Sources */,
-				BE6CFCEB1D2AD5110064041E /* Frameworks */,
-				BE6CFCEC1D2AD5110064041E /* Headers */,
-				BE6CFCED1D2AD5110064041E /* Resources */,
+				52D6D9771BEFF229002C0205 /* Sources */,
+				52D6D9781BEFF229002C0205 /* Frameworks */,
+				52D6D9791BEFF229002C0205 /* Headers */,
+				52D6D97A1BEFF229002C0205 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ProgressReporter macOS";
-			productName = "ProgressReporter macOS";
-			productReference = BE6CFCEF1D2AD5110064041E /* ProgressReporter.framework */;
+			name = "ProgressReporter-iOS";
+			productName = ProgressReporter;
+			productReference = 52D6D97C1BEFF229002C0205 /* ProgressReporter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE6CFCF71D2AD5110064041E /* ProgressReporter macOSTests */ = {
+		52D6D9851BEFF229002C0205 /* ProgressReporter-iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6CFD031D2AD5110064041E /* Build configuration list for PBXNativeTarget "ProgressReporter macOSTests" */;
+			buildConfigurationList = 52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-iOS Tests" */;
 			buildPhases = (
-				BE6CFCF41D2AD5110064041E /* Sources */,
-				BE6CFCF51D2AD5110064041E /* Frameworks */,
-				BE6CFCF61D2AD5110064041E /* Resources */,
+				52D6D9821BEFF229002C0205 /* Sources */,
+				52D6D9831BEFF229002C0205 /* Frameworks */,
+				52D6D9841BEFF229002C0205 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE6CFCFB1D2AD5110064041E /* PBXTargetDependency */,
+				52D6D9891BEFF229002C0205 /* PBXTargetDependency */,
 			);
-			name = "ProgressReporter macOSTests";
-			productName = "ProgressReporter macOSTests";
-			productReference = BE6CFCF81D2AD5110064041E /* ProgressReporter macOSTests.xctest */;
+			name = "ProgressReporter-iOS Tests";
+			productName = ProgressReporterTests;
+			productReference = 52D6D9861BEFF229002C0205 /* ProgressReporter-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BE6CFD0A1D2AD5550064041E /* ProgressReporter iOS */ = {
+		52D6D9E11BEFFF6E002C0205 /* ProgressReporter-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6CFD1C1D2AD5550064041E /* Build configuration list for PBXNativeTarget "ProgressReporter iOS" */;
+			buildConfigurationList = 52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-watchOS" */;
 			buildPhases = (
-				BE6CFD061D2AD5550064041E /* Sources */,
-				BE6CFD071D2AD5550064041E /* Frameworks */,
-				BE6CFD081D2AD5550064041E /* Headers */,
-				BE6CFD091D2AD5550064041E /* Resources */,
+				52D6D9DD1BEFFF6E002C0205 /* Sources */,
+				52D6D9DE1BEFFF6E002C0205 /* Frameworks */,
+				52D6D9DF1BEFFF6E002C0205 /* Headers */,
+				52D6D9E01BEFFF6E002C0205 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ProgressReporter iOS";
-			productName = "ProgressReporter iOS";
-			productReference = BE6CFD0B1D2AD5550064041E /* ProgressReporter.framework */;
+			name = "ProgressReporter-watchOS";
+			productName = "ProgressReporter-watchOS";
+			productReference = 52D6D9E21BEFFF6E002C0205 /* ProgressReporter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE6CFD131D2AD5550064041E /* ProgressReporter iOSTests */ = {
+		52D6D9EF1BEFFFBE002C0205 /* ProgressReporter-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6CFD1F1D2AD5550064041E /* Build configuration list for PBXNativeTarget "ProgressReporter iOSTests" */;
+			buildConfigurationList = 52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-tvOS" */;
 			buildPhases = (
-				BE6CFD101D2AD5550064041E /* Sources */,
-				BE6CFD111D2AD5550064041E /* Frameworks */,
-				BE6CFD121D2AD5550064041E /* Resources */,
+				52D6D9EB1BEFFFBE002C0205 /* Sources */,
+				52D6D9EC1BEFFFBE002C0205 /* Frameworks */,
+				52D6D9ED1BEFFFBE002C0205 /* Headers */,
+				52D6D9EE1BEFFFBE002C0205 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE6CFD171D2AD5550064041E /* PBXTargetDependency */,
 			);
-			name = "ProgressReporter iOSTests";
-			productName = "ProgressReporter iOSTests";
-			productReference = BE6CFD141D2AD5550064041E /* ProgressReporter iOSTests.xctest */;
+			name = "ProgressReporter-tvOS";
+			productName = "ProgressReporter-tvOS";
+			productReference = 52D6D9F01BEFFFBE002C0205 /* ProgressReporter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52D6DA0E1BF000BD002C0205 /* ProgressReporter-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-macOS" */;
+			buildPhases = (
+				52D6DA0A1BF000BD002C0205 /* Sources */,
+				52D6DA0B1BF000BD002C0205 /* Frameworks */,
+				52D6DA0C1BF000BD002C0205 /* Headers */,
+				52D6DA0D1BF000BD002C0205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProgressReporter-macOS";
+			productName = "ProgressReporter-macOS";
+			productReference = 52D6DA0F1BF000BD002C0205 /* ProgressReporter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD7502791C68FCFC006590AF /* ProgressReporter-macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "ProgressReporter-macOS Tests" */;
+			buildPhases = (
+				DD7502761C68FCFC006590AF /* Sources */,
+				DD7502771C68FCFC006590AF /* Frameworks */,
+				DD7502781C68FCFC006590AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7502811C68FCFC006590AF /* PBXTargetDependency */,
+			);
+			name = "ProgressReporter-macOS Tests";
+			productName = "ProgressReporter-OS Tests";
+			productReference = DD75027A1C68FCFC006590AF /* ProgressReporter-macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BE6CFD261D2AD5680064041E /* ProgressReporter watchOS */ = {
+		DD75028C1C690C7A006590AF /* ProgressReporter-tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6CFD2C1D2AD5680064041E /* Build configuration list for PBXNativeTarget "ProgressReporter watchOS" */;
+			buildConfigurationList = DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "ProgressReporter-tvOS Tests" */;
 			buildPhases = (
-				BE6CFD221D2AD5680064041E /* Sources */,
-				BE6CFD231D2AD5680064041E /* Frameworks */,
-				BE6CFD241D2AD5680064041E /* Headers */,
-				BE6CFD251D2AD5680064041E /* Resources */,
+				DD7502891C690C7A006590AF /* Sources */,
+				DD75028A1C690C7A006590AF /* Frameworks */,
+				DD75028B1C690C7A006590AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DD7502941C690C7A006590AF /* PBXTargetDependency */,
 			);
-			name = "ProgressReporter watchOS";
-			productName = "ProgressReporter watchOS";
-			productReference = BE6CFD271D2AD5680064041E /* ProgressReporter.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BE6CFD331D2AD57A0064041E /* ProgressReporter tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE6CFD451D2AD57B0064041E /* Build configuration list for PBXNativeTarget "ProgressReporter tvOS" */;
-			buildPhases = (
-				BE6CFD2F1D2AD57A0064041E /* Sources */,
-				BE6CFD301D2AD57A0064041E /* Frameworks */,
-				BE6CFD311D2AD57A0064041E /* Headers */,
-				BE6CFD321D2AD57A0064041E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ProgressReporter tvOS";
-			productName = "ProgressReporter tvOS";
-			productReference = BE6CFD341D2AD57A0064041E /* ProgressReporter.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BE6CFD3C1D2AD57B0064041E /* ProgressReporter tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE6CFD481D2AD57B0064041E /* Build configuration list for PBXNativeTarget "ProgressReporter tvOSTests" */;
-			buildPhases = (
-				BE6CFD391D2AD57B0064041E /* Sources */,
-				BE6CFD3A1D2AD57B0064041E /* Frameworks */,
-				BE6CFD3B1D2AD57B0064041E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE6CFD401D2AD57B0064041E /* PBXTargetDependency */,
-			);
-			name = "ProgressReporter tvOSTests";
-			productName = "ProgressReporter tvOSTests";
-			productReference = BE6CFD3D1D2AD57B0064041E /* ProgressReporter tvOSTests.xctest */;
+			name = "ProgressReporter-tvOS Tests";
+			productName = "ProgressReporter-tvOS Tests";
+			productReference = DD75028D1C690C7A006590AF /* ProgressReporter-tvOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE6CFCC71D2AD4660064041E /* Project object */ = {
+		52D6D9731BEFF229002C0205 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Two-212 Apps";
 				TargetAttributes = {
-					BE6CFCEE1D2AD5110064041E = {
-						CreatedOnToolsVersion = 7.3.1;
+					52D6D97B1BEFF229002C0205 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
-					BE6CFCF71D2AD5110064041E = {
-						CreatedOnToolsVersion = 7.3.1;
+					52D6D9851BEFF229002C0205 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
-					BE6CFD0A1D2AD5550064041E = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WK35K3FV5Z;
+					52D6D9E11BEFFF6E002C0205 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
-					BE6CFD131D2AD5550064041E = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WK35K3FV5Z;
+					52D6D9EF1BEFFFBE002C0205 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
-					BE6CFD261D2AD5680064041E = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WK35K3FV5Z;
+					52D6DA0E1BF000BD002C0205 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0830;
 					};
-					BE6CFD331D2AD57A0064041E = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WK35K3FV5Z;
+					DD7502791C68FCFC006590AF = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
-					BE6CFD3C1D2AD57B0064041E = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WK35K3FV5Z;
+					DD75028C1C690C7A006590AF = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = BE6CFCCA1D2AD4660064041E /* Build configuration list for PBXProject "ProgressReporter" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "ProgressReporter" */;
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BE6CFCC61D2AD4660064041E;
-			productRefGroup = BE6CFCD31D2AD4D00064041E /* Products */;
+			mainGroup = 52D6D9721BEFF229002C0205;
+			productRefGroup = 52D6D97D1BEFF229002C0205 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE6CFCEE1D2AD5110064041E /* ProgressReporter macOS */,
-				BE6CFCF71D2AD5110064041E /* ProgressReporter macOSTests */,
-				BE6CFD0A1D2AD5550064041E /* ProgressReporter iOS */,
-				BE6CFD131D2AD5550064041E /* ProgressReporter iOSTests */,
-				BE6CFD261D2AD5680064041E /* ProgressReporter watchOS */,
-				BE6CFD331D2AD57A0064041E /* ProgressReporter tvOS */,
-				BE6CFD3C1D2AD57B0064041E /* ProgressReporter tvOSTests */,
+				52D6D97B1BEFF229002C0205 /* ProgressReporter-iOS */,
+				52D6DA0E1BF000BD002C0205 /* ProgressReporter-macOS */,
+				52D6D9E11BEFFF6E002C0205 /* ProgressReporter-watchOS */,
+				52D6D9EF1BEFFFBE002C0205 /* ProgressReporter-tvOS */,
+				52D6D9851BEFF229002C0205 /* ProgressReporter-iOS Tests */,
+				DD7502791C68FCFC006590AF /* ProgressReporter-macOS Tests */,
+				DD75028C1C690C7A006590AF /* ProgressReporter-tvOS Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE6CFCED1D2AD5110064041E /* Resources */ = {
+		52D6D97A1BEFF229002C0205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFCF61D2AD5110064041E /* Resources */ = {
+		52D6D9841BEFF229002C0205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD091D2AD5550064041E /* Resources */ = {
+		52D6D9E01BEFFF6E002C0205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD121D2AD5550064041E /* Resources */ = {
+		52D6D9EE1BEFFFBE002C0205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD251D2AD5680064041E /* Resources */ = {
+		52D6DA0D1BF000BD002C0205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD321D2AD57A0064041E /* Resources */ = {
+		DD7502781C68FCFC006590AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD3B1D2AD57B0064041E /* Resources */ = {
+		DD75028B1C690C7A006590AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,105 +444,91 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE6CFCEA1D2AD5110064041E /* Sources */ = {
+		52D6D9771BEFF229002C0205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2DA251D2AE12800492793 /* ProgressReporting.swift in Sources */,
-				BEB2DA201D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
+				52D6D9981BEFF375002C0205 /* ProgressReporter.swift in Sources */,
+				7C00D0581EA61D84004F7657 /* ProgressReporting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFCF41D2AD5110064041E /* Sources */ = {
+		52D6D9821BEFF229002C0205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6CFCFE1D2AD5110064041E /* ProgressReporterTests.swift in Sources */,
+				52D6D99B1BEFF375002C0205 /* ProgressReporterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD061D2AD5550064041E /* Sources */ = {
+		52D6D9DD1BEFFF6E002C0205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2DA261D2AE12800492793 /* ProgressReporting.swift in Sources */,
-				BEB2DA211D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
+				52D6D9EA1BEFFFA4002C0205 /* ProgressReporter.swift in Sources */,
+				7C00D05A1EA61D84004F7657 /* ProgressReporting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD101D2AD5550064041E /* Sources */ = {
+		52D6D9EB1BEFFFBE002C0205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6CFD541D2ADF060064041E /* ProgressReporterTests.swift in Sources */,
+				52D6DA091BF00081002C0205 /* ProgressReporter.swift in Sources */,
+				7C00D05B1EA61D84004F7657 /* ProgressReporting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD221D2AD5680064041E /* Sources */ = {
+		52D6DA0A1BF000BD002C0205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2DA271D2AE12800492793 /* ProgressReporting.swift in Sources */,
-				BEB2DA221D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
+				52D6DA261BF00118002C0205 /* ProgressReporter.swift in Sources */,
+				7C00D0591EA61D84004F7657 /* ProgressReporting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD2F1D2AD57A0064041E /* Sources */ = {
+		DD7502761C68FCFC006590AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2DA281D2AE12800492793 /* ProgressReporting.swift in Sources */,
-				BEB2DA231D2ADFDF00492793 /* ProgressReporter.swift in Sources */,
+				DD7502861C68FDDC006590AF /* ProgressReporterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6CFD391D2AD57B0064041E /* Sources */ = {
+		DD7502891C690C7A006590AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6CFD551D2ADF060064041E /* ProgressReporterTests.swift in Sources */,
+				DD75029A1C690CBE006590AF /* ProgressReporterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE6CFCFB1D2AD5110064041E /* PBXTargetDependency */ = {
+		52D6D9891BEFF229002C0205 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE6CFCEE1D2AD5110064041E /* ProgressReporter macOS */;
-			targetProxy = BE6CFCFA1D2AD5110064041E /* PBXContainerItemProxy */;
+			target = 52D6D97B1BEFF229002C0205 /* ProgressReporter-iOS */;
+			targetProxy = 52D6D9881BEFF229002C0205 /* PBXContainerItemProxy */;
 		};
-		BE6CFD171D2AD5550064041E /* PBXTargetDependency */ = {
+		DD7502811C68FCFC006590AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE6CFD0A1D2AD5550064041E /* ProgressReporter iOS */;
-			targetProxy = BE6CFD161D2AD5550064041E /* PBXContainerItemProxy */;
+			target = 52D6DA0E1BF000BD002C0205 /* ProgressReporter-macOS */;
+			targetProxy = DD7502801C68FCFC006590AF /* PBXContainerItemProxy */;
 		};
-		BE6CFD401D2AD57B0064041E /* PBXTargetDependency */ = {
+		DD7502941C690C7A006590AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE6CFD331D2AD57A0064041E /* ProgressReporter tvOS */;
-			targetProxy = BE6CFD3F1D2AD57B0064041E /* PBXContainerItemProxy */;
+			target = 52D6D9EF1BEFFFBE002C0205 /* ProgressReporter-tvOS */;
+			targetProxy = DD7502931C690C7A006590AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BE6CFCCB1D2AD4660064041E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		BE6CFCCC1D2AD4660064041E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		BE6CFD011D2AD5110064041E /* Debug */ = {
+		52D6D98E1BEFF229002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -565,224 +538,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_macOS.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-macOS";
-				PRODUCT_NAME = ProgressReporter;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BE6CFD021D2AD5110064041E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_macOS.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-macOS";
-				PRODUCT_NAME = ProgressReporter;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BE6CFD041D2AD5110064041E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		BE6CFD051D2AD5110064041E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		BE6CFD1D1D2AD5550064041E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -799,29 +564,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_iOS.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-iOS";
-				PRODUCT_NAME = ProgressReporter;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BE6CFD1E1D2AD5550064041E /* Release */ = {
+		52D6D98F1BEFF229002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -831,18 +589,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -853,15 +609,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_iOS.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-iOS";
-				PRODUCT_NAME = ProgressReporter;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -869,484 +620,348 @@
 			};
 			name = Release;
 		};
-		BE6CFD201D2AD5550064041E /* Debug */ = {
+		52D6D9911BEFF229002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		BE6CFD211D2AD5550064041E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BE6CFD2D1D2AD5680064041E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_watchOS.plist;
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-iOS";
+				PRODUCT_NAME = ProgressReporter;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52D6D9921BEFF229002C0205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-iOS";
+				PRODUCT_NAME = ProgressReporter;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		52D6D9941BEFF229002C0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Configs/ProgressReporterTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52D6D9951BEFF229002C0205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Configs/ProgressReporterTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		52D6D9E81BEFFF6E002C0205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-watchOS";
 				PRODUCT_NAME = ProgressReporter;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		BE6CFD2E1D2AD5680064041E /* Release */ = {
+		52D6D9E91BEFFF6E002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_watchOS.plist;
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-watchOS";
 				PRODUCT_NAME = ProgressReporter;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		BE6CFD461D2AD57B0064041E /* Debug */ = {
+		52D6DA021BEFFFBE002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_tvOS.plist;
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-tvOS";
 				PRODUCT_NAME = ProgressReporter;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BE6CFD471D2AD57B0064041E /* Release */ = {
+		52D6DA031BEFFFBE002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/Info_tvOS.plist;
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-tvOS";
 				PRODUCT_NAME = ProgressReporter;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BE6CFD491D2AD57B0064041E /* Debug */ = {
+		52D6DA211BF000BD002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-macOS";
+				PRODUCT_NAME = ProgressReporter;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		BE6CFD4A1D2AD57B0064041E /* Release */ = {
+		52D6DA221BF000BD002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Configs/ProgressReporter.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-macOS";
+				PRODUCT_NAME = ProgressReporter;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD7502831C68FCFC006590AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Configs/ProgressReporterTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD7502841C68FCFC006590AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Configs/ProgressReporterTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD7502961C690C7A006590AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Configs/ProgressReporterTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.advanced-operations.ProgressReporter-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DD7502971C690C7A006590AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Configs/ProgressReporterTests.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ProgressReporter.ProgressReporter-tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE6CFCCA1D2AD4660064041E /* Build configuration list for PBXProject "ProgressReporter" */ = {
+		52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "ProgressReporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFCCB1D2AD4660064041E /* Debug */,
-				BE6CFCCC1D2AD4660064041E /* Release */,
+				52D6D98E1BEFF229002C0205 /* Debug */,
+				52D6D98F1BEFF229002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6CFD001D2AD5110064041E /* Build configuration list for PBXNativeTarget "ProgressReporter macOS" */ = {
+		52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFD011D2AD5110064041E /* Debug */,
-				BE6CFD021D2AD5110064041E /* Release */,
+				52D6D9911BEFF229002C0205 /* Debug */,
+				52D6D9921BEFF229002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6CFD031D2AD5110064041E /* Build configuration list for PBXNativeTarget "ProgressReporter macOSTests" */ = {
+		52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFD041D2AD5110064041E /* Debug */,
-				BE6CFD051D2AD5110064041E /* Release */,
+				52D6D9941BEFF229002C0205 /* Debug */,
+				52D6D9951BEFF229002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6CFD1C1D2AD5550064041E /* Build configuration list for PBXNativeTarget "ProgressReporter iOS" */ = {
+		52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFD1D1D2AD5550064041E /* Debug */,
-				BE6CFD1E1D2AD5550064041E /* Release */,
+				52D6D9E81BEFFF6E002C0205 /* Debug */,
+				52D6D9E91BEFFF6E002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6CFD1F1D2AD5550064041E /* Build configuration list for PBXNativeTarget "ProgressReporter iOSTests" */ = {
+		52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFD201D2AD5550064041E /* Debug */,
-				BE6CFD211D2AD5550064041E /* Release */,
+				52D6DA021BEFFFBE002C0205 /* Debug */,
+				52D6DA031BEFFFBE002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6CFD2C1D2AD5680064041E /* Build configuration list for PBXNativeTarget "ProgressReporter watchOS" */ = {
+		52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "ProgressReporter-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFD2D1D2AD5680064041E /* Debug */,
-				BE6CFD2E1D2AD5680064041E /* Release */,
+				52D6DA211BF000BD002C0205 /* Debug */,
+				52D6DA221BF000BD002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6CFD451D2AD57B0064041E /* Build configuration list for PBXNativeTarget "ProgressReporter tvOS" */ = {
+		DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "ProgressReporter-macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFD461D2AD57B0064041E /* Debug */,
-				BE6CFD471D2AD57B0064041E /* Release */,
+				DD7502831C68FCFC006590AF /* Debug */,
+				DD7502841C68FCFC006590AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6CFD481D2AD57B0064041E /* Build configuration list for PBXNativeTarget "ProgressReporter tvOSTests" */ = {
+		DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "ProgressReporter-tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE6CFD491D2AD57B0064041E /* Debug */,
-				BE6CFD4A1D2AD57B0064041E /* Release */,
+				DD7502961C690C7A006590AF /* Debug */,
+				DD7502971C690C7A006590AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE6CFCC71D2AD4660064041E /* Project object */;
+	rootObject = 52D6D9731BEFF229002C0205 /* Project object */;
 }

@@ -10,13 +10,13 @@ import Foundation
 
 public protocol ProgressReporting {
     
-    func getProgressReporter() -> ProgressReporter
+    func makeProgressReporter() -> ProgressReporter
     
 }
 
-extension ProgressReporting where Self: NSProgressReporting {
+extension ProgressReporting where Self : Foundation.ProgressReporting {
     
-    public func getProgressReporter() -> ProgressReporter {
+    public func makeProgressReporter() -> ProgressReporter {
         return ProgressReporter(progress: progress)
     }
     

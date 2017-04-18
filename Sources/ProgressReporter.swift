@@ -10,11 +10,11 @@ import Foundation
 
 private var progressReporterObservationContext = 0
 
-public class ProgressReporter: NSObject {
+open class ProgressReporter: NSObject {
     
-    private let progress: NSProgress
+    fileprivate let progress: Progress
     
-    public init(progress: NSProgress) {
+    public init(progress: Progress) {
         self.progress = progress
         super.init()
         registerForKVO()
@@ -26,9 +26,9 @@ public class ProgressReporter: NSObject {
         }
     }
     
-    public weak var delegate: ProgressReporterDelegate?
+    open weak var delegate: ProgressReporterDelegate?
     
-    private enum ProgressKey: String {
+    fileprivate enum ProgressKey: String {
         case fractionCompleted
         case completedUnitCount
         case totalUnitCount
@@ -36,7 +36,7 @@ public class ProgressReporter: NSObject {
         case paused
     }
     
-    static private let overalProgressObservedKeys: [ProgressKey] = [
+    static fileprivate let overalProgressObservedKeys: [ProgressKey] = [
         .fractionCompleted,
         .completedUnitCount,
         .totalUnitCount,
@@ -44,15 +44,15 @@ public class ProgressReporter: NSObject {
         .paused,
     ]
     
-    private func registerForKVO() {
+    fileprivate func registerForKVO() {
         for key in ProgressReporter.overalProgressObservedKeys {
-            progress.addObserver(self, forKeyPath: key.rawValue, options: [.New], context: &progressReporterObservationContext)
+            progress.addObserver(self, forKeyPath: key.rawValue, options: [.new], context: &progressReporterObservationContext)
         }
     }
     
-    override public func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    override open func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         guard context == &progressReporterObservationContext else {
-            super.observeValueForKeyPath(keyPath, ofObject: object, change: change, context: context)
+            super.observeValue(forKeyPath: keyPath, of: object, change: change, context: context)
             return
         }
         guard let key = keyPath.flatMap({ ProgressKey(rawValue: $0) }) else {
@@ -66,11 +66,11 @@ public class ProgressReporter: NSObject {
         case .totalUnitCount:
             delegate?.progressReporter(self, didChangeTotalUnitCount: progress.totalUnitCount)
         case .cancelled:
-            if progress.cancelled {
+            if progress.isCancelled {
                 delegate?.progressReporterDidCancel(self)
             }
         case .paused:
-            if progress.paused {
+            if progress.isPaused {
                 delegate?.progressReporterDidPause(self)
             } else {
                 delegate?.progressReporterDidResume(self)
@@ -82,23 +82,23 @@ public class ProgressReporter: NSObject {
 
 public protocol ProgressReporterDelegate: class {
     
-    func progressReporter(progressReporter: ProgressReporter, didChangeFractionCompleted fractionCompleted: Double)
-    func progressReporter(progressReporter: ProgressReporter, didChangeCompletedUnitCount completedUnitCount: Int64)
-    func progressReporter(progressReporter: ProgressReporter, didChangeTotalUnitCount totalUnitCount: Int64)
-    func progressReporterDidCancel(progressReporter: ProgressReporter)
-    func progressReporterDidPause(progressReporter: ProgressReporter)
-    func progressReporterDidResume(progressReporter: ProgressReporter)
+    func progressReporter(_ progressReporter: ProgressReporter, didChangeFractionCompleted fractionCompleted: Double)
+    func progressReporter(_ progressReporter: ProgressReporter, didChangeCompletedUnitCount completedUnitCount: Int64)
+    func progressReporter(_ progressReporter: ProgressReporter, didChangeTotalUnitCount totalUnitCount: Int64)
+    func progressReporterDidCancel(_ progressReporter: ProgressReporter)
+    func progressReporterDidPause(_ progressReporter: ProgressReporter)
+    func progressReporterDidResume(_ progressReporter: ProgressReporter)
     
 }
 
 extension ProgressReporterDelegate {
     
-    public func progressReporter(progressReporter: ProgressReporter, didChangeFractionCompleted fractionCompleted: Double) { }
-    public func progressReporter(progressReporter: ProgressReporter, didChangeCompletedUnitCount completedUnitCount: Int64) { }
-    public func progressReporter(progressReporter: ProgressReporter, didChangeTotalUnitCount totalUnitCount: Int64) { }
-    public func progressReporterDidCancel(progressReporter: ProgressReporter) { }
-    public func progressReporterDidPause(progressReporter: ProgressReporter) { }
-    public func progressReporterDidResume(progressReporter: ProgressReporter) { }
+    public func progressReporter(_ progressReporter: ProgressReporter, didChangeFractionCompleted fractionCompleted: Double) { }
+    public func progressReporter(_ progressReporter: ProgressReporter, didChangeCompletedUnitCount completedUnitCount: Int64) { }
+    public func progressReporter(_ progressReporter: ProgressReporter, didChangeTotalUnitCount totalUnitCount: Int64) { }
+    public func progressReporterDidCancel(_ progressReporter: ProgressReporter) { }
+    public func progressReporterDidPause(_ progressReporter: ProgressReporter) { }
+    public func progressReporterDidResume(_ progressReporter: ProgressReporter) { }
 
 }
 
@@ -124,31 +124,31 @@ extension ProgressReporter {
         return progress.localizedAdditionalDescription
     }
     
-    public var cancellable: Bool {
-        return progress.cancellable
+    public var isCancellable: Bool {
+        return progress.isCancellable
     }
     
-    public var cancelled: Bool {
-        return progress.cancelled
+    public var isCancelled: Bool {
+        return progress.isCancelled
     }
     
-    public var pausable: Bool {
-        return progress.pausable
+    public var isPausable: Bool {
+        return progress.isPausable
     }
     
-    public var paused: Bool {
-        return progress.paused
+    public var isPaused: Bool {
+        return progress.isPaused
     }
     
-    public var kind: String? {
+    public var kind: ProgressKind? {
         return progress.kind
     }
     
-    public var indeterminate: Bool {
-        return progress.indeterminate
+    public var isIndeterminate: Bool {
+        return progress.isIndeterminate
     }
     
-    public var userInfo: [NSObject: AnyObject] {
+    public var userInfo: [ProgressUserInfoKey: Any] {
         return progress.userInfo
     }
     

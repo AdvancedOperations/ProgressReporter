@@ -10,7 +10,7 @@ import Foundation
 
 private var progressReporterObservationContext = 0
 
-open class ProgressReporter: NSObject {
+public final class ProgressReporter: NSObject {
     
     fileprivate let progress: Progress
     
@@ -28,7 +28,7 @@ open class ProgressReporter: NSObject {
     
     open weak var delegate: ProgressReporterDelegate?
     
-    fileprivate enum ProgressKey: String {
+    private enum ProgressKey: String {
         case fractionCompleted
         case completedUnitCount
         case totalUnitCount
@@ -36,7 +36,7 @@ open class ProgressReporter: NSObject {
         case paused
     }
     
-    static fileprivate let overalProgressObservedKeys: [ProgressKey] = [
+    static private let overalProgressObservedKeys: [ProgressKey] = [
         .fractionCompleted,
         .completedUnitCount,
         .totalUnitCount,
@@ -44,13 +44,13 @@ open class ProgressReporter: NSObject {
         .paused,
     ]
     
-    fileprivate func registerForKVO() {
+    private func registerForKVO() {
         for key in ProgressReporter.overalProgressObservedKeys {
             progress.addObserver(self, forKeyPath: key.rawValue, options: [.new], context: &progressReporterObservationContext)
         }
     }
     
-    override open func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         guard context == &progressReporterObservationContext else {
             super.observeValue(forKeyPath: keyPath, of: object, change: change, context: context)
             return
